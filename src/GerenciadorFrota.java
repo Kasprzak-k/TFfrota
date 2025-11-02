@@ -46,6 +46,10 @@ public class GerenciadorFrota {
                 .findFirst();
     }
 
+    public void removerVeiculo(Veiculo veiculo) {
+        frota.remove(veiculo);
+    }
+
     // aqui começa a programação funcional
     public long getTotalVeiculos() {
         return frota.size();
@@ -83,9 +87,9 @@ public class GerenciadorFrota {
        public List<Veiculo> getVeiculosParaManutencao() {
         List<Veiculo> resultado = new ArrayList<>();
         final double LIMIAR_MANUTENCAO = 50000.0; 
-        for (Veiculo v : frota) {
-            if (v.getQuilometragem() >= LIMIAR_MANUTENCAO) {
-                resultado.add(v);
+        for (Veiculo veiculo : frota) {
+            if (veiculo.getQuilometragem() >= LIMIAR_MANUTENCAO) {
+                resultado.add(veiculo);
             }
         }
 
