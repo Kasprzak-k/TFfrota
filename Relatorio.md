@@ -24,3 +24,12 @@ Estudante(a): Sthefany Marques da Fonseca.
 - Justificativa:
 
 Minha nota, se deve porque consegui implementar partes importantes do projeto, como a criação da classe Caminhão, a complementação da funcionalidade de relatório de manutenção e o desenvolvimento da classe App, que reúne toda a interface gráfica e as ações do sistema. Consegui fazer essas partes funcionarem corretamente, Ainda assim, reconheço que poderia melhorar.
+
+
+Estudante: Arthur Ramos Kasprzak.
+
+- Nota: 9/10
+
+- Justificativa:
+
+Acredito que me saí muito bem nas classes implementadas e correções feitas ao longo do trabalho, como GerenciadorFrota, Carro, Moto e Veiculo. Consegui estruturar bem a hierarquia de classes, implementar a lógica de negócio e garantir o funcionamento das funcionalidades principais, como busca, filtros e relatórios.
